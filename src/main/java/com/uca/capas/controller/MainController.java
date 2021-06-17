@@ -9,7 +9,7 @@ import com.uca.capas.domain.Usuario;
 @Controller
 public class MainController {
 
-	@GetMapping("/login")
+	@GetMapping("/")
 	public String enviarForm(Usuario usuario) {
 		
 		return "Login";
